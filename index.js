@@ -1,4 +1,7 @@
 module.exports = (source, options) => {
-  console.log(source)
+  if (/<!--\s*PROTECTED\s*-->/.test(source)) {
+    source = '[PROTECTED]'
+  }
+
   return source
 }
