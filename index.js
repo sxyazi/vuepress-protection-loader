@@ -1,5 +1,5 @@
 module.exports = (source, options) => {
-  if (/<!--\s*PROTECTED\s*-->/.test(source)) {
+  if (/<!--\s*PROTECTED\s*-->/i.test(source)) {
     source = '[PROTECTED]'
   }
 
