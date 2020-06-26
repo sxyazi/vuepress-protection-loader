@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-protection-loader",
+  "version": "1.0.0",
+  "description": "Protect your articles",
+  "keywords": [
+    "vuepress",
+    "vuepress-protection"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "webpack": "1 || 2 || 3 || 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sxyazi/vuepress-protection-loader.git"
+  },
+  "homepage": "https://github.com/sxyazi/vuepress-protection-loader",
+  "author": "sxyazi <sxyazi@gmail.com>",
+  "license": "MIT"
+}
